@@ -1,0 +1,502 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: whitesmoke;
+}
+
+
+
+/* CSS for Navbar */
+
+.container{
+    /* border: 2px solid red; */
+    height: 580px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    
+}
+
+.nav{
+    /* border: 2px solid black; */
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.logo{
+    padding: 8px;
+    /* border: 2px solid black; */
+
+    font-size: 26px;
+    font-weight: bolder;
+}
+.logo:hover{
+    color: red;
+    transition: 0.5s;
+    background-color: rgba(127, 255, 212, 0.651);
+    border-radius: 10px;
+    /* border-bottom: 2px solid cyan; */
+    cursor: pointer;
+}
+
+.items ul{
+    display: flex;
+
+}
+
+.items ul li{
+    list-style: none;
+    margin: 18px;
+}
+.items a{
+    padding: 8px;
+    /* border: 2px solid black; */
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.items a:hover{
+    color: red;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: rgba(72, 183, 247);
+
+    box-shadow: 4px 4px 20px rgba(252, 23, 164, 0.603),
+                -4px -4px 20px rgba(252, 23, 164, 0.603);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+/* CSS for first container */
+
+
+.content{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 2px solid yellow; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 70px;
+    height: 300px;
+    width: 500px;
+    background-color: rgba(232, 235, 59, 0.253);
+    color: rgba(0, 0, 0, 0.863);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.637);
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+    width: 100px;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.btn:hover{
+    background-color: rgba(255, 123, 0, 0.89);
+    color: black;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    transition: 0.4s;
+
+}
+
+
+
+
+
+/* CSS for About */
+
+.about{
+    /* border: 2px solid green; */
+    height: 450px;
+    width: 1000px;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.5px 0.5px 18px rgba(54, 53, 53, 0.836),
+                -0.5px -0.5px 18px rgba(54, 53, 53, 0.836);
+
+
+}
+.about .text{
+    /* border: 2px solid rgb(60, 0, 128); */
+    /* border-radius: 25px; */
+    padding: 30px;
+    width: 450px;
+
+}
+.text h1{
+    /* text-decoration: underline; */
+    background-color: rgba(0, 255, 255, 0.322);
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.about .text p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Aboreto', cursive;
+/* font-family: 'Kanit', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+}
+.text .btn{
+    background-color: rgba(41, 41, 248, 0.904);
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+}
+.about .img{
+    /* border: 2px solid rgb(60, 0, 128); */
+    border-radius: 55px;
+    padding: 30px;
+    width: 450px;
+    background-image: url(images/i2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* CSS for second container */
+
+.what{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+.what .wi{
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 450px;
+    background-image: url(images/what.png);
+    /* padding: 8px; */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.what .text1{
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 12px gray;
+    width: 490px;
+    height: 450px;
+
+    color: black;
+}
+
+.what .text1{
+    /* border: 2px solid rgb(60, 0, 128); */
+    /* border-radius: 25px; */
+    padding: 30px;
+    width: 450px;
+
+}
+
+.what .text1 p{
+        margin-top: 40px;
+        font-size: 18px;
+        font-family: 'Aboreto', cursive;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.text1 .btn{
+    background-color: rgba(204, 119, 7);
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+}
+.text1 h1{
+    /* text-decoration: underline; */
+    background-color: rgba(0, 255, 255, 0.322);
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* CSS for container3 */
+
+.container3{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    height: 620px;
+    color: black;
+}
+.container3 h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+    text-shadow: 4px 4px 10px rgba(9, 252, 110, 0.938);
+}
+.container3 p{
+    text-align: center;
+    padding: 10px;
+}
+.container3 #para{
+    font-size: 20px;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background-color: rgba(35, 35, 241, 0.568); */
+    border-radius: 40px;
+    box-shadow: 2px 2px 16px cyan,
+                -2px -2px 16px cyan;
+
+}
+.box{
+    /* border: 2px solid yellow; */
+    margin: 50px;
+    width: 770px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+}
+.box:hover{
+    box-shadow: 4px 4px 20px black;
+}
+#box-1{
+    
+    background-image: url(images/box1.png);
+    background-repeat: no-repeat;
+    /* margin: 20px; */
+    background-position-x: center;
+    background-position-y: 40px;
+}
+
+#box-2{
+    background-image: url(images/box2.png);
+    background-repeat: no-repeat;
+    /* margin: 20px; */
+    background-position-x: center;
+    background-position-y: 40px;
+}
+
+#box-3{
+    background-image: url(images/box3.png);
+    background-repeat: no-repeat;
+    /* margin: 20px; */
+    background-position-x: center;
+    background-position-y: 40px;
+}
+
+.contex{
+    /* border: 2px solid green; */
+    margin: 180px 10px;
+    text-align: center;
+}
+.contex p{
+    margin-top: 20px;
+}
+.contex .btn{
+    background-color: blue;
+    color: whitesmoke;
+    width: 150px;
+    font-size: 18px;
+}
+
+
+/* Container 4 */
+
+.container4{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    /* border: 2px solid blue; */
+    width: 550px;
+    margin: 60px auto;
+    box-shadow: 2px 2px 10px greenyellow;
+    text-align: center;
+    color: black;
+    
+}
+
+.dr-box{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    
+
+}
+.says{
+    /* border: 2px solid rgb(0, 255, 149); */
+    height: 400px;
+    width: 450px;
+    margin-top: 40px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+
+}
+.says h2{
+    text-align: center;
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.says:hover{
+    box-shadow: 4px 4px 16px rgba(252, 10, 159, 0.877);
+
+}
+.says img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 4px 28%;
+    box-shadow: 4px 4px 20px grey;
+}
+.says p{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px;
+}
+
+
+/* Container 5 */
+
+.container5{
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* border: 2px solid red; */
+    border-radius: 14px;
+    height: 440px;
+    margin: 100px 94px;
+    background-color: rgb(153, 153, 153);
+    box-shadow: 5px 5px 24px rgb(255, 62, 62) inset;
+}
+.update{
+    /* border: 2px solid green; */
+    color: blue;
+    text-shadow: 4px 4px 12px greenyellow;
+    margin: 22px;
+    text-align: center;
+    padding: 4px;
+    font-size: 30px;
+}
+.form{
+    /* border: 2px solid yellow; */
+    border-radius: 28px;
+    background-color: rgb(18, 1, 34);
+    /* box-shadow: 6px 6px 20px rgb(255, 252, 59); */
+    margin: 22px auto;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 50px;
+    width: 600px;
+}
+.form input{
+    margin: 14px auto;
+    padding: 8px;
+    width: 300px;
+
+}
+.ip{
+    border-radius: 6px;
+
+}
+.ip:hover{
+    width: 500px;
+    transition: 0.8s;
+    padding: 8px;
+
+}
+#txt:hover{
+    border-radius: 16px;
+    border: 2px solid gold;
+    transition: 0.5s;
+    box-shadow: 2px 2px 12px goldenrod;
+}
+#nm:hover{
+    border-radius: 16px;
+    border: 2px solid greenyellow;
+    transition: 0.5s;
+    box-shadow: 2px 2px 12px rgb(28, 255, 47);
+}
+#em:hover{
+    border-radius: 16px;
+    border: 2px solid blue;
+    transition: 0.5s;
+    box-shadow: 2px 2px 12px rgb(21, 83, 253);
+}
+.form button{
+    padding: 6px;
+    width: 100px;
+    margin: 12px auto;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form button:hover{
+    /* border: 2px solid yellowgreen; */
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(255, 102, 0);
+    transition: 0.6s;
+    box-shadow: 2px 2px 12px aqua;
+    filter: blur(0.2px);
+}
+
+/* CSS for Footer */
+
+footer{
+    border: 2px solid black;
+    /* margin: 6px; */
+    text-align: center;
+    margin-bottom: 4px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.profile{
+    margin-top: 42px;
+    font-size: 16px;
+    display: flex;
+    justify-content: right;
+}
